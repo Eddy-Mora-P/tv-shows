@@ -1,0 +1,76 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.poster {
+  width: 210px;
+  height: 295px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.episodes {
+  display: grid;
+  place-items: start;
+  place-content: center;
+  gap: 1rem;
+}
+
+.season {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.season-header, .episode {
+  --size: 2rem;
+  width: var(--size);
+  height: var(--size);
+  background: var(--color, #333);
+  display: grid;
+  place-items: center;
+  margin: 2px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.season-header {
+  background: #4a5568;
+  font-size: 0.9rem;
+}
+
+.rating-0 { --color: #2b0a27 }
+.rating-1 { --color: #451010 }
+.rating-2 { --color: #922323 }
+.rating-3 { --color: #c53030 }
+.rating-4 { --color: #c53030 }
+.rating-5 { --color: #c53030 }
+.rating-6 { --color: #dd6b20 }
+.rating-7 { --color: #f6e05e; color: #333 }
+.rating-8 { --color: #48bb78 }
+.rating-9 { --color: #2f855a }
+.rating-10 { --color: #4CAF50 }

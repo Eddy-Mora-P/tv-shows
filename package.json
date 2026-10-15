@@ -1,0 +1,13 @@
+{
+  "name": "tv-shows",
+  "version": "1.0.0",
+  "description": "Ejercicio de asincronía con TVMaze API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "serve src"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
